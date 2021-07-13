@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+:root {
+    --color: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--color);
+    width: 70vh;
+    filter: blur(var(--blur));
+}
+
+body{
+    background-color: #193539;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+header {
+    margin-bottom: 10vh;
+}
+
+.controls {
+    height: 15vh;
+}
+
+h1, p, .modify {
+    font-family: sans-serif;
+    color: white;
+    font-size: 7vh;
+    font-weight: bold;
+}
+
+span {
+    font-family: sans-serif;
+    color: white;
+    font-size: 4vh;
+    font-weight: 100;
+}
+
+.modify {
+    color: var(--color);
+}
